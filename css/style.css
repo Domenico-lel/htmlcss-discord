@@ -33,10 +33,14 @@ header{
 
 /* fine header*/
 
+
+
 .cont-blu{
     display: flex;
-    background-image:url(../img/jumbo.png);
-    height: 350px;
+    background-image: url(../img/jumbo.png);
+    width: 100%;
+    height: 385px;
+    object-fit: cover;
     background-color: rgb(49, 97, 224);
     justify-content: space-around;
     align-items: center;
@@ -70,10 +74,11 @@ header{
 }
 
 .contenitore1{
+    background-image: url(../img/item1.svg);
     height: 290px;
     width: 500px;
-    background-color: rgb(0, 162, 255);
-    border-style: Dashed;
+    
+    
 }
 
 
@@ -112,7 +117,6 @@ header{
 .cont_colonna1{
     width: 180px;
     height: 300px;
-    background-color: rgb(189, 79, 98);
     border-style: Dashed ;
 }
 
@@ -140,7 +144,6 @@ header{
     align-items: center;
     width: 810px;
     height: 50px;
-    background-color: aquamarine;
 }
 
 .logo, .bottone{
@@ -202,4 +205,17 @@ header{
 
 img > #img-logo{
     padding-right: 50px;
+}
+
+#bottone_fondo{
+    background-color: #8EA1E1;
+    font-size: 11px;
+    border: 0px;
+    border-radius: 10px 10px 10px 10px;
+    width: 65px;
+    height: 22px;
+    cursor: pointer;
+}
+.colore_blu{
+    color: #7289DA;
 }
