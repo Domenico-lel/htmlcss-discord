@@ -6,12 +6,12 @@ body{
 }
 
 .blu{
-    background-color: rgb(49, 97, 224);
+    background-color: #255EE9;
 }
 
 
 header{
-    margin: auto;
+    margin:auto;
     width: 50%;
     height: auto;
     padding-top: 10px;
@@ -35,6 +35,7 @@ header{
 
 .cont-blu{
     display: flex;
+    background-image:url(../img/jumbo.png);
     height: 350px;
     background-color: rgb(49, 97, 224);
     justify-content: space-around;
@@ -157,6 +158,7 @@ header{
     text-decoration: none;
 }
 
+
 .bottone_login{
     background-color: #fff;
     font-size: 11px;
@@ -188,7 +190,16 @@ header{
     cursor: pointer;
     margin-left: 25px;
 }
+/* fine stili bottoni e font dell bottone*/
 
 .pink > p, h1{
     color:#fff
+}
+
+#img-logo{
+    width: 88px; height: auto;
+}
+
+img > #img-logo{
+    padding-right: 50px;
 }
