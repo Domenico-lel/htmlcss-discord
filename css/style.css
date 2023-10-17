@@ -36,18 +36,17 @@ header{
 
 
 .cont-blu{
+    background-image:url(../img/jumbo.png);
     display: flex;
-    background-image: url(../img/jumbo.png);
     width: 100%;
     height: 385px;
     object-fit: cover;
-    background-color: rgb(49, 97, 224);
     justify-content: space-around;
     align-items: center;
 }
 
 .pink{
-    
+    margin: auto;
     height: 250px;
     width: 550px;
     text-align: center;
@@ -219,3 +218,7 @@ img > #img-logo{
 .colore_blu{
     color: #7289DA;
 }
+
+
+
+
