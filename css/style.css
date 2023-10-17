@@ -143,20 +143,20 @@ header{
 
 .nero{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 464px;
     background-color: #23272A;
 }
 
 .cont_colonna1{
-    width: 180px;
+    width: 203px;
     height: 300px;
     
 }
 
 .cont_blue{
-    width: 100px;
+    width: 106px;
     height: 300px;  
 
 }
@@ -172,8 +172,21 @@ header{
     font-size: 15px;
     
 }
+#italia{
+    height: auto;
+    width: 25px;
+}
+span{
+    color: #fff;
+}
 
-
+.immaginine{
+    color: #fff;
+    margin: 10px;
+}
+.fa-brands{
+    padding-right: 15px;
+}
 /*fine rettangolo grande nero*/
 
 .ultimo{
